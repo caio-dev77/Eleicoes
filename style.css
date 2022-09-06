@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 11vh vh 40vh 7vh 7vh 7vh 4vh 4vh 4vh 4vh 4vh 5vh 7vh 5vh 7vh;
+    grid-gap: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+#a1 {
+    background-color: rgb(62, 168, 20);
+    text-align: center;
+    grid-column: 1/21;
+    margin-top: ;
+    grid-row: ;
+}
+
+#a2 {
+    background-color: yellow;
+    text-align: center;
+    grid-column: 1/21;
+    grid-row: ;
+
+}
+
+#a3 {
+    background-color: rgb(1, 25, 235);
+    grid-column: 1/7;
+    grid-row: "";
+}
+
+#a4 {
+    background-color: blue;
+    grid-column: 7/21;
+    text-align: center;
+}
+
+#a4 p {
+    text-align: center;
+    height: 0;
+
+}
+
+button {}
+
+#botao1 {
+    height: 100px;
+    width: 100px;
+    color: fuchsia;
+    background-color: cyan;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5%;
+    box-shadow: 13px 3px 16px black;
+    box-sizing: border-box;
+    
+}

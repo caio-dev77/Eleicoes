@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario na planilha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 
+    <form name="submit-to-google-sheet">
+        
+
+        <select name="candidato">
+            <option value="Jair Bolsonaro (PL)">Jair Bolsonaro (PL)</option>
+            <option value="Lula (PT)">Lula (PT)</option>
+            <option value="Ciro Gomes (PDT)">Ciro Gomes (PDT)</option>
+            <option value="Simone Tebet (MDB)">Simone Tebet (MDB)</option>
+            <option value="Leonardo Péricles (UP)">Leonardo Péricles (UP)</option>
+            <option value="Luiz Felipe d’Avila (Novo)">Luiz Felipe d’Avila (Novo)</option>
+            <option value="Vera Lúcia (PSTU)">Vera Lúcia (PSTU)</option>
+            <option value="Sofia Manzano (PCB)">Sofia Manzano (PCB)</option>
+            <option value="Eymael (DC)">Eymael (DC)</option>
+            <option value="Soraya Thronicke (União Brasil)">Soraya Thronicke (União Brasil)</option>
+            <option value="Pablo Marçal (Pros)">Pablo Marçal (Pros)</option>
+            <option value="Roberto Jefferson (PTB)">Roberto Jefferson (PTB)</option>
+        </select>
+
+        <input name="brinde" type="checkbox" value="sim" id="brinde">
+        <label name="brinde" for="brinde">
+            Camisa do time
+        </label>
+
+        <input name="brinde2" type="checkbox" value="sim" id="brinde2">
+        <label name="brinde2" for="brinde2">
+            Ingresso VIP
+        </label>
+
+        <input name="pesquisa-sim" type="radio" value="sim" id="pesquisa-sim">
+        <label name="pesquisa-sim" for="pesquisa-sim">
+        Já fui no Mineirão
+        </label>
+
+        <input name="vezes" type="checkbox" id="inlineCheckbox1" value="1a3">
+        <label name="vezes" for="inlineCheckbox1">1 a 3 vezes</label><br>
+
+        <input name="vezes" type="checkbox" id="inlineCheckbox1" value="3a10">
+        <label name="vezes" for="inlineCheckbox1">3 a 10 vezes</label>
+
+        
+        <input name="vezes" type="checkbox" id="inlineCheckbox1" value=">10">
+        <label name="vezes" for="inlineCheckbox1">Acima de 10</label>
+
+        <input name="nome" type="text" placeholder="Nome" required>
+        <input name="email" type="email" placeholder="Email">
+        <input name="Comentario" type="text" placeholder="Comentario">
+        <input name="telefone" type="number" placeholder="Telefone">
+
+
+        <button type="submit">Cadastre</button>
+    </form>
+     -->
+    <form name="submit-to-google-sheet">
+        <div class="container">
+
+
+            <div id="a1">
+                <h1>Pesquisa Eleitoral</h1>
+            </div>
+            <div id="a2">
+                <h2>Em quem você vota para Presidencia da Republica</h2>
+            </div>
+            <div id="a3" required>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Jair Bolsonaro (PL)">
+                <label name="voto" for="inlineCheckbox1">Jair Bolsonaro (PL)</label><br>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Lula (PT)">
+                <label name="voto" for="inlineCheckbox1">Lula (PT)</label><br>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Ciro Gomes (PDT)">
+                <label name="voto" for="inlineCheckbox1">Ciro Gomes (PDT)</label><br>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Simone Tebet (MDB)">
+                <label name="voto" for="inlineCheckbox1">Simone Tebet (MDB)</label><br>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Leonardo Péricles (UP)">
+                <label name="voto" for="inlineCheckbox1">Leonardo Péricles (UP)</label><br>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Luiz Felipe d’Avila (Novo)">
+                <label name="voto" for="inlineCheckbox1">Luiz Felipe d’Avila (Novo)</label><br>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Vera Lúcia (PSTU)">
+                <label name="voto" for="inlineCheckbox1">Vera Lúcia (PSTU)</label><br>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Sofia Manzano (PCB)" required>
+                <label name="voto" for="inlineCheckbox1">Sofia Manzano (PCB)</label><br>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Eymael (DC)">
+                <label name="voto" for="inlineCheckbox1">Eymael (DC)</label><br>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Soraya Thronicke (União Brasil)" required>
+                <label name="voto" for="inlineCheckbox1">Soraya Thronicke (União Brasil)</label><br>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Pablo Marçal (Pros)" required>
+                <label name="voto" for="inlineCheckbox1">Pablo Marçal (Pros)</label><br>
+
+                <input name="voto" type="radio" id="inlineCheckbox1" value="Roberto Jefferson (PTB)" required>
+                <label name="voto" for="inlineCheckbox1">Roberto Jefferson (PTB)</label><br>
+
+            </div>
+            <div id="a4">
+                <input name="nome" type="text" placeholder="Nome" required>
+                <input name="email" type="email" placeholder="Email">
+                <input name="Comentario" type="text" placeholder="Comentario">
+                <input name="telefone" type="number" placeholder="Telefone">
+
+                <p><button id="botao1" type="submit">Vote</button>
+                </p>
+            </div>
+
+
+
+        </div>
+    </form>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz3CvwAm9dnZHi3-fVRw-0G_y0DXQNe--sxm_EJQjiTw_yoHAU_k8g-9yeKJzTPJ1ar/exec'
+        const form = document.forms
+        ['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Sucess!', response))
+                .catch(error => console.error('Error!', error.message))
+            form.reset();
+        })
+
+    </script>
+    <!--
+        var sheetName = 'Sheet2'
+var scriptProp = PropertiesService.getScriptProperties()
+
+function intialSetup () {
+    var activeSpreadsheet = SpreadsheetApp.getActiveSpreadsheet()
+    scriptProp.setProperty('key', activeSpreadsheet.getId())
+}
+
+function doPost (e) {
+    var lock = LockService.getScriptLock()
+    lock.tryLock(10000)
+
+    try{
+        var doc = SpreadsheetApp.openById(scriptProp.getProperty('key'))
+        var sheet = doc.getSheetByName(sheetName)
+
+        var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0]
+        var nextRow = sheet.getLastRow() + 1
+
+        var newRow = headers.map(function(header) {
+            return header === 'timestamp' ? new Date() : e.parameter[header]
+        })
+
+        sheet.getRange(nextRow, 1, 1, newRow.length).setValues([newRow])
+        
+        return ContentService
+         .createTextOutput(JSON.stringify({ 'result': 'success', 'row': nextRow }))
+         .setMimeType(ContentService.MimeType.JSON)
+    }
+
+    catch (e) {
+        return ContentService
+        .createTextOutput(JSON.stringify({ 'result': 'error', 'error': e}))
+        .setMimeType(ContentService.MimeType.JSON)
+    }
+
+    finally {
+        lock.releaseLock()
+    }
+}
+
+ -->
+</body>
+
+</html>
