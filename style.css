@@ -46,9 +46,7 @@
 
 }
 
-button {}
-
-#botao1 {
+button {
     height: 100px;
     width: 100px;
     color: fuchsia;
@@ -57,7 +55,11 @@ button {}
     font-weight: bold;
     font-size: xx-large;
     margin-top: 5%;
-    box-shadow: 13px 3px 16px black;
-    box-sizing: border-box;
-    
+     
+  
+}
+
+ button:hover {
+    background-color: rgb(144, 39, 10);
+    cursor:pointer;
 }
